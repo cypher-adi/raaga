@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import HomeNavbar from './components/HomeNavbar';
-import Home from './components/Home';
-import About from './components/About';
-import Footer from './components/Footer';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomeNavbar from "./components/HomeNavbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import Learn from "./components/Learn";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/learn" element={<Learn />} />
             </Routes>
           </Router>
         </div>

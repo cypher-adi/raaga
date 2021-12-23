@@ -29,14 +29,14 @@
   color: var(--main-color);
 }
 
-.title-line  {
+.title-line {
   width: 15%;
   height: 10px;
   background-color: var(--main-color);
 }
 
 .card-rg {
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   min-height: 150px;
   padding: 20px;
   margin: 10px 0;
@@ -45,4 +45,39 @@
 .footer {
   text-align: center;
   margin-bottom: 10px;
+}
+
+.aboutMain,
+.contactMain,
+.learnMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.about1,
+.about2 {
+  background-color: rgba(0, 0, 0, 0.555);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 0.8rem;
+  width: 100%;
+  margin: 0.2rem;
+}
+
+.contactMain,
+.learnMain > div > h2 {
+  font-weight: 900;
+}
+
+.learnMain > div,
+.contactMain > div {
+  background-color: rgba(0, 0, 0, 0.555);
+  padding: 1rem;
 }
