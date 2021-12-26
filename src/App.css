@@ -1,5 +1,5 @@
 :root {
-  --main-color: yellowgreen;
+  --main-color: rgba(0, 0, 0, 0.692);
 }
 
 .nav-item {
@@ -7,7 +7,7 @@
 }
 
 .login-btn {
-  background-color: var(--main-color);
+  background-color: yellowgreen;
   padding: 5px 10px;
   border: none;
   border-radius: 2px;
