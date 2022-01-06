@@ -15,7 +15,7 @@ function App() {
         <div className="ml-4 mt-3">
           <Router>
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/raaga/" element={<Home />} />
               <Route path="/about/" element={<About />} />
               <Route path="/contact/" element={<Contact />} />
               <Route path="/learn/" element={<Learn />} />
