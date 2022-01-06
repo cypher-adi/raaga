@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/raaga/static/css/main.263ad150.css",
-    "main.js": "/raaga/static/js/main.2c428688.js",
+    "main.js": "/raaga/static/js/main.c8866830.js",
     "static/media/music1.svg": "/raaga/static/media/music1.04778a040f6cd8796e98b9bc7dbfd1c3.svg",
     "static/media/about.webp": "/raaga/static/media/about.3ceef6175bfd61b69dd6.webp",
     "static/media/bg_new.svg": "/raaga/static/media/bg_new.bd65d66dbe4bd7dd7093.svg",
@@ -9,10 +9,10 @@
     "index.html": "/raaga/index.html",
     "static/media/fb.webp": "/raaga/static/media/fb.bcaff5e714f91342b2e2.webp",
     "main.263ad150.css.map": "/raaga/static/css/main.263ad150.css.map",
-    "main.2c428688.js.map": "/raaga/static/js/main.2c428688.js.map"
+    "main.c8866830.js.map": "/raaga/static/js/main.c8866830.js.map"
   },
   "entrypoints": [
     "static/css/main.263ad150.css",
-    "static/js/main.2c428688.js"
+    "static/js/main.c8866830.js"
   ]
 }
