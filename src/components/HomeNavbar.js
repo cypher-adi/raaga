@@ -29,13 +29,13 @@ const HomeNavbar = () => {
                 <NavLink href="/raaga/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/about/">About</NavLink>
+                <NavLink href="/raaga/about/">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/learn/">Learn</NavLink>
+                <NavLink href="/raaga/learn/">Learn</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contact/">Contact Us</NavLink>
+                <NavLink href="/raaga/contact/">Contact Us</NavLink>
               </NavItem>
               <NavItem>
                 <button className="login-btn text-white">Login</button>
