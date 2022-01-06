@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   Navbar,
   NavbarToggler,
@@ -7,9 +7,9 @@ import {
   NavLink,
   NavItem,
   Button,
-} from 'reactstrap';
-import fb from '../assets/img/fb.webp';
-import ig from '../assets/img/ig.webp';
+} from "reactstrap";
+import fb from "../assets/img/fb.webp";
+import ig from "../assets/img/ig.webp";
 
 const HomeNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,16 +26,16 @@ const HomeNavbar = () => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
               <NavItem>
-                <NavLink href="/">Home</NavLink>
+                <NavLink href="/raaga/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/about">About</NavLink>
+                <NavLink href="/about/">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/learn">Learn</NavLink>
+                <NavLink href="/learn/">Learn</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contact">Contact Us</NavLink>
+                <NavLink href="/contact/">Contact Us</NavLink>
               </NavItem>
               <NavItem>
                 <button className="login-btn text-white">Login</button>
