@@ -15,10 +15,10 @@ function App() {
         <div className="ml-4 mt-3">
           <Router>
             <Routes>
-              <Route path="/raaga" element={<Home />} />
-              <Route path="/raaga/about" element={<About />} />
-              <Route path="/raaga/contact" element={<Contact />} />
-              <Route path="/raaga/learn" element={<Learn />} />
+              <Route path="/raaga/" element={<Home />} />
+              <Route path="/raaga/about/" element={<About />} />
+              <Route path="/raaga/contact/" element={<Contact />} />
+              <Route path="/raaga/learn/" element={<Learn />} />
             </Routes>
           </Router>
         </div>
