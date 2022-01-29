@@ -1,12 +1,12 @@
-import React from "react";
-import PageTitle from "./PageTitle";
-import srcAbout from "../assets/img/about.webp";
+import React from 'react';
+import PageTitle from './PageTitle';
+import srcAbout from '../assets/img/about.webp';
 
 const About = () => {
   return (
     <>
       <PageTitle />
-      <h1 style={{ fontWeight: "900" }}>
+      <h1 style={{ fontWeight: '900' }}>
         My <br /> Story
       </h1>
 
